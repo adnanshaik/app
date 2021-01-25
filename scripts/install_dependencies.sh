@@ -1,5 +1,5 @@
 sudo apt-get update
-sudo apt-get -y install python3-pip3
+sudo apt-get -y install python3-pip
 
 aioredis==1.2.0
 asgiref==2.3.2
