@@ -5,11 +5,11 @@ files:
     destination: /chatapp/
 hooks:
   BeforeInstall:
-    - location: scripts/install_dependencies.sh
+    - location: /chatapp/scripts/install_dependencies.sh
       timeout: 300
       runas: root
   ApplicationStart:
-    - location: scripts/start_server.sh
+    - location: /chatapp/scripts/start_server.sh
       timeout: 300
       runas: root
 
