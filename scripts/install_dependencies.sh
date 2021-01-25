@@ -1,5 +1,7 @@
 sudo apt-get update
-sudo apt-get -y install python3-pip
+sudo apt-get -y install python3-pip3
+pip3 install django gunicorn psycopg2
+
 aioredis==1.2.0
 asgiref==2.3.2
 asn1crypto==0.24.0
