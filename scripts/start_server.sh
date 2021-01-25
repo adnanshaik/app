@@ -1,3 +1,4 @@
-cd ..
-cd fundoo/
-gunicorn --bind 0.0.0.0:9090 fundoo.wsgi
+cd /chatapp/fundoo
+supervisorctl reread
+supervisorctl update
+supervisorctl start all
