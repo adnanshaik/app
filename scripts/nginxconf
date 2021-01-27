@@ -1,9 +1,9 @@
 server {
     listen 80;
-    server_name 10.0.1.140;
+    server_name http://10.0.1.140;
 
     location / {
         include proxy_params;
-        proxy_pass 10.0.1.140:9090;
+        proxy_pass http://10.0.1.140:9090;
     }
 }
