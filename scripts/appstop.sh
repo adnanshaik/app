@@ -1,2 +1,3 @@
-rm -rf *
+cd /
+rm -rf chatapp
 
