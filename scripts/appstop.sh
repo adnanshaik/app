@@ -1,4 +1,2 @@
-if [ -d chatapp]
-then
-  rm -rf chatapp
-fi
+rm -rf chatapp
+
