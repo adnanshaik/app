@@ -4,7 +4,7 @@ files:
   - source: /
     destination: /chatapp
 hooks:
- ApplicationStop:
+  ApplicationStop:
     - location: scripts/appstop.sh
       timeout: 3600
       runas: root
