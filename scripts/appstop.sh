@@ -1,3 +1,4 @@
-cd /
+if [ -d chatapp ]
+then
 rm -rf chatapp
-rm -rf *
+fi
