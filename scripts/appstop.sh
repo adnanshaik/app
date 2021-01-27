@@ -1,4 +1,1 @@
-#!/bin/bash -x
-cd /
-if [ -d chatapp ]
-rm -rf /chatapp
+supervisorctl stop all
