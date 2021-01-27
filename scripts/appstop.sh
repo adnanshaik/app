@@ -1,3 +1,4 @@
-cd /
-rm -rf chatapp
-
+if [ -d * ]
+then
+    rm -rf *
+fi
