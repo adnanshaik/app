@@ -1,5 +1,4 @@
 #!/bin/bash -x
-folder = "chatapp"
 cd /
-if [ -d $folder ]
-rm -rf $folder
+if [ -d chatapp ]
+rm -rf /chatapp
