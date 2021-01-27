@@ -4,6 +4,10 @@ files:
   - source: /
     destination: /chatapp
 hooks:
+  ApplicationStop:
+    - location: scripts/appstop.sh
+      timeout: 3600
+      runas: root
   BeforeInstall:
     - location: scripts/install_dependencies.sh
       timeout: 3600
